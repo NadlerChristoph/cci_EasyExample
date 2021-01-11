@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<JetView-Document Version="2" ObjectPoolVersion="3.0" ProductVersion="5.5.0.4333">
+<JetView-Document Version="13" ObjectPoolVersion="3.0" ProductVersion="5.5.0.4333">
 	<PropertySheets>
 		<PropertySheet Name="General">
 			<Property Name="ObjectID">
-				<Value>4000</Value>
+				<Value>1002</Value>
 			</Property>
 			<Property Name="Titel">
 				<Value>
@@ -14,7 +14,7 @@
 				<Value>13434879</Value>
 			</Property>
 			<Property Name="MaskType">
-				<Value>2</Value>
+				<Value>1</Value>
 			</Property>
 			<Property Name="RelatedObjectPool">
 				<Value>.\MyProject1.jop</Value>
@@ -56,10 +56,7 @@
 				<Value>-1</Value>
 			</Property>
 			<Property Name="SoftKeyMask">
-				<Value>-1</Value>
-			</Property>
-			<Property Name="ActivePage">
-				<Value>0</Value>
+				<Value>4000</Value>
 			</Property>
 			<Property Name="Selectable">
 				<Value>1</Value>
@@ -74,7 +71,7 @@
 				<Value>en;de</Value>
 			</Property>
 			<Property Name="Width">
-				<Value>640</Value>
+				<Value>480</Value>
 			</Property>
 			<Property Name="Height">
 				<Value>480</Value>
@@ -99,7 +96,7 @@
 				<Value>1</Value>
 			</Property>
 			<Property Name="SnapToGrid">
-				<Value>1</Value>
+				<Value>0</Value>
 			</Property>
 			<Property Name="AngleSnap">
 				<Value>1</Value>
@@ -108,13 +105,13 @@
 				<Value>1</Value>
 			</Property>
 			<Property Name="VerticalSpacing">
-				<Value>12</Value>
+				<Value>10</Value>
 			</Property>
 			<Property Name="HorizontalSpacing">
-				<Value>12</Value>
+				<Value>10</Value>
 			</Property>
 			<Property Name="GridColor">
-				<Value>0</Value>
+				<Value>8421504</Value>
 			</Property>
 			<Property Name="MagnificationX">
 				<Value>100</Value>
@@ -125,7 +122,7 @@
 		</PropertySheet>
 	</PropertySheets>
 	<Components>
-		<Component ID="228431550" Class="CSoftKey" Name="SoftKey">
+		<Component ID="4177922" Class="CGroup" Name="Group">
 			<PropertySheets>
 				<PropertySheet Name="General">
 					<Property Name="ZOrder">
@@ -134,27 +131,24 @@
 				</PropertySheet>
 				<PropertySheet Name="Proxy">
 					<Property Name="Top">
-						<Value>0</Value>
+						<Value>55</Value>
 					</Property>
 					<Property Name="Left">
-						<Value>560</Value>
+						<Value>51</Value>
 					</Property>
 					<Property Name="Transform">
-						<Value>(1.0000000000000000)(0.0000000000000000)(560.0000000000000000)(0.0000000000000000)(1.0000000000000000)(0.0000000000000000)</Value>
+						<Value>(1.0000000000000000)(0.0000000000000000)(51.0000000000000000)(0.0000000000000000)(1.0000000000000000)(55.0000000000000000)</Value>
 					</Property>
 					<Property Name="ReferencedObjectForMask">
 						<Value>-1</Value>
 					</Property>
-					<Property Name="SoftkeymaskDesignatorNo">
-						<Value>0</Value>
-					</Property>
 				</PropertySheet>
 			</PropertySheets>
 			<Objects>
-				<Object JVS-ID="5001"/>
+				<Object JVS-ID="3002"/>
 			</Objects>
 		</Component>
-		<Component ID="374948736" Class="CSoftKey" Name="SoftKey">
+		<Component ID="239799960" Class="CButton" Name="Button">
 			<PropertySheets>
 				<PropertySheet Name="General">
 					<Property Name="ZOrder">
@@ -163,27 +157,24 @@
 				</PropertySheet>
 				<PropertySheet Name="Proxy">
 					<Property Name="Top">
-						<Value>80</Value>
+						<Value>300</Value>
 					</Property>
 					<Property Name="Left">
-						<Value>560</Value>
+						<Value>68</Value>
 					</Property>
 					<Property Name="Transform">
-						<Value>(1.0000000000000000)(0.0000000000000000)(560.0000000000000000)(0.0000000000000000)(1.0000000000000000)(80.0000000000000000)</Value>
+						<Value>(1.0000000000000000)(0.0000000000000000)(68.0000000000000000)(0.0000000000000000)(1.0000000000000000)(300.0000000000000000)</Value>
 					</Property>
 					<Property Name="ReferencedObjectForMask">
 						<Value>-1</Value>
 					</Property>
-					<Property Name="SoftkeymaskDesignatorNo">
-						<Value>1</Value>
-					</Property>
 				</PropertySheet>
 			</PropertySheets>
 			<Objects>
-				<Object JVS-ID="5002"/>
+				<Object JVS-ID="6005"/>
 			</Objects>
 		</Component>
-		<Component ID="64876146" Class="CSoftKey" Name="SoftKey">
+		<Component ID="26534928" Class="CButton" Name="Button">
 			<PropertySheets>
 				<PropertySheet Name="General">
 					<Property Name="ZOrder">
@@ -192,27 +183,24 @@
 				</PropertySheet>
 				<PropertySheet Name="Proxy">
 					<Property Name="Top">
-						<Value>160</Value>
+						<Value>317</Value>
 					</Property>
 					<Property Name="Left">
-						<Value>560</Value>
+						<Value>268</Value>
 					</Property>
 					<Property Name="Transform">
-						<Value>(1.0000000000000000)(0.0000000000000000)(560.0000000000000000)(0.0000000000000000)(1.0000000000000000)(160.0000000000000000)</Value>
+						<Value>(1.0000000000000000)(0.0000000000000000)(268.0000000000000000)(0.0000000000000000)(1.0000000000000000)(317.0000000000000000)</Value>
 					</Property>
 					<Property Name="ReferencedObjectForMask">
 						<Value>-1</Value>
 					</Property>
-					<Property Name="SoftkeymaskDesignatorNo">
-						<Value>2</Value>
-					</Property>
 				</PropertySheet>
 			</PropertySheets>
 			<Objects>
-				<Object JVS-ID="5003"/>
+				<Object JVS-ID="6006"/>
 			</Objects>
 		</Component>
-		<Component ID="200426300" Class="CSoftKey" Name="SoftKey">
+		<Component ID="238333544" Class="CButton" Name="Button">
 			<PropertySheets>
 				<PropertySheet Name="General">
 					<Property Name="ZOrder">
@@ -221,27 +209,24 @@
 				</PropertySheet>
 				<PropertySheet Name="Proxy">
 					<Property Name="Top">
-						<Value>240</Value>
+						<Value>61</Value>
 					</Property>
 					<Property Name="Left">
-						<Value>560</Value>
+						<Value>362</Value>
 					</Property>
 					<Property Name="Transform">
-						<Value>(1.0000000000000000)(0.0000000000000000)(560.0000000000000000)(0.0000000000000000)(1.0000000000000000)(240.0000000000000000)</Value>
+						<Value>(1.0000000000000000)(0.0000000000000000)(362.0000000000000000)(0.0000000000000000)(1.0000000000000000)(61.0000000000000000)</Value>
 					</Property>
 					<Property Name="ReferencedObjectForMask">
 						<Value>-1</Value>
 					</Property>
-					<Property Name="SoftkeymaskDesignatorNo">
-						<Value>3</Value>
-					</Property>
 				</PropertySheet>
 			</PropertySheets>
 			<Objects>
-				<Object JVS-ID="5004"/>
+				<Object JVS-ID="6007"/>
 			</Objects>
 		</Component>
-		<Component ID="178688414" Class="CSoftKey" Name="SoftKey">
+		<Component ID="63722910" Class="CButton" Name="Button">
 			<PropertySheets>
 				<PropertySheet Name="General">
 					<Property Name="ZOrder">
@@ -250,27 +235,24 @@
 				</PropertySheet>
 				<PropertySheet Name="Proxy">
 					<Property Name="Top">
-						<Value>320</Value>
+						<Value>175</Value>
 					</Property>
 					<Property Name="Left">
-						<Value>560</Value>
+						<Value>365</Value>
 					</Property>
 					<Property Name="Transform">
-						<Value>(1.0000000000000000)(0.0000000000000000)(560.0000000000000000)(0.0000000000000000)(1.0000000000000000)(320.0000000000000000)</Value>
+						<Value>(1.0000000000000000)(0.0000000000000000)(365.0000000000000000)(0.0000000000000000)(1.0000000000000000)(175.0000000000000000)</Value>
 					</Property>
 					<Property Name="ReferencedObjectForMask">
 						<Value>-1</Value>
 					</Property>
-					<Property Name="SoftkeymaskDesignatorNo">
-						<Value>4</Value>
-					</Property>
 				</PropertySheet>
 			</PropertySheets>
 			<Objects>
-				<Object JVS-ID="5005"/>
+				<Object JVS-ID="6008"/>
 			</Objects>
 		</Component>
-		<Component ID="213702062" Class="CSoftKey" Name="SoftKey">
+		<Component ID="71211895" Class="CButton" Name="Button">
 			<PropertySheets>
 				<PropertySheet Name="General">
 					<Property Name="ZOrder">
@@ -279,24 +261,47 @@
 				</PropertySheet>
 				<PropertySheet Name="Proxy">
 					<Property Name="Top">
-						<Value>400</Value>
+						<Value>308</Value>
 					</Property>
 					<Property Name="Left">
-						<Value>560</Value>
+						<Value>401</Value>
 					</Property>
 					<Property Name="Transform">
-						<Value>(1.0000000000000000)(0.0000000000000000)(560.0000000000000000)(0.0000000000000000)(1.0000000000000000)(400.0000000000000000)</Value>
+						<Value>(1.0000000000000000)(0.0000000000000000)(401.0000000000000000)(0.0000000000000000)(1.0000000000000000)(308.0000000000000000)</Value>
 					</Property>
 					<Property Name="ReferencedObjectForMask">
 						<Value>-1</Value>
 					</Property>
-					<Property Name="SoftkeymaskDesignatorNo">
-						<Value>5</Value>
+				</PropertySheet>
+			</PropertySheets>
+			<Objects>
+				<Object JVS-ID="6009"/>
+			</Objects>
+		</Component>
+		<Component ID="284388408" Class="CButton" Name="Button">
+			<PropertySheets>
+				<PropertySheet Name="General">
+					<Property Name="ZOrder">
+						<Value>6</Value>
+					</Property>
+				</PropertySheet>
+				<PropertySheet Name="Proxy">
+					<Property Name="Top">
+						<Value>266</Value>
+					</Property>
+					<Property Name="Left">
+						<Value>397</Value>
+					</Property>
+					<Property Name="Transform">
+						<Value>(1.0000000000000000)(0.0000000000000000)(397.0000000000000000)(0.0000000000000000)(1.0000000000000000)(266.0000000000000000)</Value>
+					</Property>
+					<Property Name="ReferencedObjectForMask">
+						<Value>-1</Value>
 					</Property>
 				</PropertySheet>
 			</PropertySheets>
 			<Objects>
-				<Object JVS-ID="5000"/>
+				<Object JVS-ID="6010"/>
 			</Objects>
 		</Component>
 	</Components>
