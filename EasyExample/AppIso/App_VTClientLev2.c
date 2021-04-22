@@ -137,6 +137,16 @@ void VTC_handleSoftkeysAndButtons_RELEASED(const struct ButtonActivation_S *pBut
 	default:
 		break;
 	}
+
+
+	if(Gesamtzaehler>=Gesamtziel){
+		IsoVtcCmd_NumericValue(pButtonData->u8Instance, ObjectPointer_Gesamtziel_ereicht, OutputString_Gesamtziel_erreicht);
+	}
+
+	if(Gesamtzaehler>=Gesamtziel){
+			IsoVtcCmd_NumericValue(pButtonData->u8Instance,ObjectPointer_Tagensziel_ereicht,OutputString_Tagesziel_ereicht);
+	}
+
 	// Senden des Wertes der lokalen Variable Tageszaehler an die NumberVariable_Tageszaehler
 	IsoVtcCmd_NumericValue(pButtonData->u8Instance, NumberVariable_Tageszaehler, Tageszaehler);
 	// Senden des Wertes der lokalen Variable Gesamtzaehler an die NumberVariable_Gesamtzaehler
