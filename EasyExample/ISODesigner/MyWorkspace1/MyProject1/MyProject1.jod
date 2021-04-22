@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <JetViewSoft-DefaultObjects Version="3.0" ProductVersion="5.5.0.4333" RelatedObjectPool=".\MyProject1.jop">
 	<Objects>
-		<Object Class="CInputNumber">
+		<Object Class="CButton">
 			<Objects>
-				<Object Class="CNumberVariable" JVS-ID="21001" ObjectName="NumberVariable_Gesamtzaehler"/>
-				<Object Class="CFontStyle" JVS-ID="23001" ObjectName="FontAttributes_Default"/>
+				<Object Class="CFontStyle" JVS-ID="23000" ObjectName="FontAttributes_23000"/>
 			</Objects>
 		</Object>
-		<Object Class="CMeter">
+		<Object Class="CInputNumber">
 			<Objects>
-				<Object Class="CNumberVariable" JVS-ID="21001" ObjectName="NumberVariable_Gesamtzaehler"/>
+				<Object Class="CNumberVariable" JVS-ID="21003" ObjectName="NumberVariable_Gesamtziel"/>
+				<Object Class="CFontStyle" JVS-ID="23001" ObjectName="FontAttributes_Default"/>
 			</Objects>
 		</Object>
 		<Object Class="COutputNumber">
@@ -20,7 +20,7 @@
 		</Object>
 		<Object Class="COutputText">
 			<Objects>
-				<Object Class="CFontStyle" JVS-ID="23002" ObjectName="FontAttributes_Button"/>
+				<Object Class="CFontStyle" JVS-ID="23001" ObjectName="FontAttributes_Default"/>
 			</Objects>
 		</Object>
 	</Objects>
