@@ -131,6 +131,16 @@ CONFIG_CAN_BRIDGE_OFF=y
 # end of can2ip Configuration
 
 #
+# Example Connection Configuration
+#
+CONFIG_EXAMPLE_CONNECT_WIFI=y
+# CONFIG_EXAMPLE_CONNECT_ETHERNET is not set
+CONFIG_EXAMPLE_WIFI_SSID="devolo-30d32d9e5bb5"
+CONFIG_EXAMPLE_WIFI_PASSWORD="CGYRLVVLAXYHIWBK"
+CONFIG_EXAMPLE_CONNECT_IPV6=y
+# end of Example Connection Configuration
+
+#
 # tcp_server Configuration
 #
 CONFIG_TCP_SERVER_IPV4=y
